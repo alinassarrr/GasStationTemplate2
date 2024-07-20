@@ -392,6 +392,7 @@
             this.iconButton2.Name = "iconButton2";
             this.iconButton2.Tag = "Home";
             this.iconButton2.UseVisualStyleBackColor = true;
+            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
             // panel1
             // 
