@@ -117,26 +117,395 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge12.Name" xml:space="preserve">
+    <value>kryptonBorderEdge12</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge12.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge12.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;iconButton13.Name" xml:space="preserve">
+    <value>iconButton13</value>
+  </data>
+  <data name="&gt;&gt;iconButton13.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton13.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton13.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge11.Name" xml:space="preserve">
+    <value>kryptonBorderEdge11</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge11.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge11.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;iconButton12.Name" xml:space="preserve">
+    <value>iconButton12</value>
+  </data>
+  <data name="&gt;&gt;iconButton12.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton12.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton12.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge10.Name" xml:space="preserve">
+    <value>kryptonBorderEdge10</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge10.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge10.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge10.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;iconButton11.Name" xml:space="preserve">
+    <value>iconButton11</value>
+  </data>
+  <data name="&gt;&gt;iconButton11.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton11.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton11.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge9.Name" xml:space="preserve">
+    <value>kryptonBorderEdge9</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge9.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge9.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge9.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;iconButton10.Name" xml:space="preserve">
+    <value>iconButton10</value>
+  </data>
+  <data name="&gt;&gt;iconButton10.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton10.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton10.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge8.Name" xml:space="preserve">
+    <value>kryptonBorderEdge8</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge8.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge8.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge8.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;iconButton9.Name" xml:space="preserve">
+    <value>iconButton9</value>
+  </data>
+  <data name="&gt;&gt;iconButton9.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton9.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton9.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge7.Name" xml:space="preserve">
+    <value>kryptonBorderEdge7</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge7.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge7.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;iconButton8.Name" xml:space="preserve">
+    <value>iconButton8</value>
+  </data>
+  <data name="&gt;&gt;iconButton8.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton8.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge6.Name" xml:space="preserve">
+    <value>kryptonBorderEdge6</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge6.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge6.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;iconButton7.Name" xml:space="preserve">
+    <value>iconButton7</value>
+  </data>
+  <data name="&gt;&gt;iconButton7.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton7.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton7.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge5.Name" xml:space="preserve">
+    <value>kryptonBorderEdge5</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge5.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge5.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge5.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;iconButton6.Name" xml:space="preserve">
+    <value>iconButton6</value>
+  </data>
+  <data name="&gt;&gt;iconButton6.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton6.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton6.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge4.Name" xml:space="preserve">
+    <value>kryptonBorderEdge4</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge4.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge4.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge4.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;iconButton5.Name" xml:space="preserve">
+    <value>iconButton5</value>
+  </data>
+  <data name="&gt;&gt;iconButton5.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton5.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton5.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge3.Name" xml:space="preserve">
+    <value>kryptonBorderEdge3</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge3.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge3.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge3.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;iconButton4.Name" xml:space="preserve">
+    <value>iconButton4</value>
+  </data>
+  <data name="&gt;&gt;iconButton4.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton4.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton4.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge2.Name" xml:space="preserve">
+    <value>kryptonBorderEdge2</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge2.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge2.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge2.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;iconButton3.Name" xml:space="preserve">
+    <value>iconButton3</value>
+  </data>
+  <data name="&gt;&gt;iconButton3.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton3.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton3.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge1.Name" xml:space="preserve">
+    <value>kryptonBorderEdge1</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge1.Type" xml:space="preserve">
+    <value>ComponentFactory.Krypton.Toolkit.KryptonBorderEdge, ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge1.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;kryptonBorderEdge1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;iconButton2.Name" xml:space="preserve">
+    <value>iconButton2</value>
+  </data>
+  <data name="&gt;&gt;iconButton2.Type" xml:space="preserve">
+    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
+  </data>
+  <data name="&gt;&gt;iconButton2.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;iconButton2.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 749</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.Name" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt, style=Bold</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 487</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>6, 749</value>
   </data>
   <data name="label4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 7, 0</value>
+    <value>0, 0, 10, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 17</value>
+    <value>35, 25</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>49</value>
@@ -163,16 +532,13 @@
     <value>Microsoft Sans Serif, 10pt, style=Bold</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 365</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>3, 562</value>
   </data>
   <data name="label3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 7, 0</value>
+    <value>0, 0, 10, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 17</value>
+    <value>35, 25</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>48</value>
@@ -199,16 +565,13 @@
     <value>Microsoft Sans Serif, 10pt, style=Bold</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 324</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>6, 498</value>
   </data>
   <data name="label2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 7, 0</value>
+    <value>0, 0, 10, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 17</value>
+    <value>35, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -235,16 +598,13 @@
     <value>Microsoft Sans Serif, 10pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 119</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>6, 183</value>
   </data>
   <data name="label1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 7, 0</value>
+    <value>0, 0, 10, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 17</value>
+    <value>35, 25</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -268,13 +628,10 @@
     <value>Bottom</value>
   </data>
   <data name="kryptonBorderEdge12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 446</value>
-  </data>
-  <data name="kryptonBorderEdge12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 686</value>
   </data>
   <data name="kryptonBorderEdge12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge12.Text" xml:space="preserve">
     <value>kryptonBorderEdge12</value>
@@ -304,16 +661,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 447</value>
-  </data>
-  <data name="iconButton13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 687</value>
   </data>
   <data name="iconButton13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton13.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -343,13 +697,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 515</value>
-  </data>
-  <data name="kryptonBorderEdge11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 792</value>
   </data>
   <data name="kryptonBorderEdge11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge11.Text" xml:space="preserve">
     <value>kryptonBorderEdge11</value>
@@ -379,16 +730,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 475</value>
-  </data>
-  <data name="iconButton12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 730</value>
   </data>
   <data name="iconButton12.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton12.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -418,13 +766,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 474</value>
-  </data>
-  <data name="kryptonBorderEdge10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 729</value>
   </data>
   <data name="kryptonBorderEdge10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge10.Text" xml:space="preserve">
     <value>kryptonBorderEdge10</value>
@@ -454,16 +799,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 434</value>
-  </data>
-  <data name="iconButton11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 667</value>
   </data>
   <data name="iconButton11.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton11.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -493,13 +835,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 433</value>
-  </data>
-  <data name="kryptonBorderEdge9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 666</value>
   </data>
   <data name="kryptonBorderEdge9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge9.Text" xml:space="preserve">
     <value>kryptonBorderEdge9</value>
@@ -529,16 +868,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 393</value>
-  </data>
-  <data name="iconButton10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 604</value>
   </data>
   <data name="iconButton10.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton10.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -568,13 +904,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 392</value>
-  </data>
-  <data name="kryptonBorderEdge8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 603</value>
   </data>
   <data name="kryptonBorderEdge8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge8.Text" xml:space="preserve">
     <value>kryptonBorderEdge8</value>
@@ -604,16 +937,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 352</value>
-  </data>
-  <data name="iconButton9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 541</value>
   </data>
   <data name="iconButton9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton9.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -643,13 +973,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 351</value>
-  </data>
-  <data name="kryptonBorderEdge7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 540</value>
   </data>
   <data name="kryptonBorderEdge7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge7.Text" xml:space="preserve">
     <value>kryptonBorderEdge7</value>
@@ -679,16 +1006,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 311</value>
-  </data>
-  <data name="iconButton8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 478</value>
   </data>
   <data name="iconButton8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton8.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -718,13 +1042,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 310</value>
-  </data>
-  <data name="kryptonBorderEdge6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 477</value>
   </data>
   <data name="kryptonBorderEdge6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge6.Text" xml:space="preserve">
     <value>kryptonBorderEdge6</value>
@@ -754,16 +1075,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 270</value>
-  </data>
-  <data name="iconButton7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 415</value>
   </data>
   <data name="iconButton7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton7.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -793,13 +1111,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 269</value>
-  </data>
-  <data name="kryptonBorderEdge5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 414</value>
   </data>
   <data name="kryptonBorderEdge5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge5.Text" xml:space="preserve">
     <value>kryptonBorderEdge5</value>
@@ -829,16 +1144,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 229</value>
-  </data>
-  <data name="iconButton6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 352</value>
   </data>
   <data name="iconButton6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton6.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -868,13 +1180,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 228</value>
-  </data>
-  <data name="kryptonBorderEdge4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 351</value>
   </data>
   <data name="kryptonBorderEdge4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge4.Text" xml:space="preserve">
     <value>kryptonBorderEdge4</value>
@@ -904,16 +1213,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 188</value>
-  </data>
-  <data name="iconButton5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 289</value>
   </data>
   <data name="iconButton5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton5.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -943,13 +1249,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 187</value>
-  </data>
-  <data name="kryptonBorderEdge3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 288</value>
   </data>
   <data name="kryptonBorderEdge3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge3.Text" xml:space="preserve">
     <value>kryptonBorderEdge3</value>
@@ -979,16 +1282,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 147</value>
-  </data>
-  <data name="iconButton4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 226</value>
   </data>
   <data name="iconButton4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton4.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1018,13 +1318,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 146</value>
-  </data>
-  <data name="kryptonBorderEdge2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 225</value>
   </data>
   <data name="kryptonBorderEdge2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge2.Text" xml:space="preserve">
     <value>kryptonBorderEdge2</value>
@@ -1054,16 +1351,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 106</value>
-  </data>
-  <data name="iconButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 163</value>
   </data>
   <data name="iconButton3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1093,13 +1387,10 @@
     <value>Top</value>
   </data>
   <data name="kryptonBorderEdge1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 105</value>
-  </data>
-  <data name="kryptonBorderEdge1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 162</value>
   </data>
   <data name="kryptonBorderEdge1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 1</value>
+    <value>254, 1</value>
   </data>
   <data name="kryptonBorderEdge1.Text" xml:space="preserve">
     <value>kryptonBorderEdge1</value>
@@ -1129,16 +1420,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 65</value>
-  </data>
-  <data name="iconButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 100</value>
   </data>
   <data name="iconButton2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 40</value>
+    <value>254, 62</value>
   </data>
   <data name="iconButton2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1194,11 +1482,8 @@
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 65</value>
+    <value>254, 100</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1215,33 +1500,6 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="panelMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="panelMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panelMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="panelMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 487</value>
-  </data>
-  <data name="panelMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panelMenu.Name" xml:space="preserve">
-    <value>panelMenu</value>
-  </data>
-  <data name="&gt;&gt;panelMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelMenu.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="btnMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -1249,16 +1507,13 @@
     <value>Flat</value>
   </data>
   <data name="btnMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 0</value>
-  </data>
-  <data name="btnMenu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>196, 0</value>
   </data>
   <data name="btnMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 6, 0, 0</value>
+    <value>0, 9, 0, 0</value>
   </data>
   <data name="btnMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 37</value>
+    <value>54, 57</value>
   </data>
   <data name="btnMenu.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -3623,13 +3878,10 @@
 </value>
   </data>
   <data name="rjCircularPictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, -2</value>
-  </data>
-  <data name="rjCircularPictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>54, -3</value>
   </data>
   <data name="rjCircularPictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 67</value>
+    <value>100, 100</value>
   </data>
   <data name="rjCircularPictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -3665,16 +3917,13 @@
     <value>Fill</value>
   </data>
   <data name="panelDesktop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>169, 39</value>
-  </data>
-  <data name="panelDesktop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>254, 60</value>
   </data>
   <data name="panelDesktop.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>586, 517</value>
+    <value>879, 795</value>
   </data>
   <data name="panelDesktop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>744, 517</value>
+    <value>1116, 795</value>
   </data>
   <data name="panelDesktop.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3719,13 +3968,10 @@
     <value>1</value>
   </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 492</value>
-  </data>
-  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 757</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>744, 25</value>
+    <value>1116, 38</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3749,13 +3995,10 @@
     <value>True</value>
   </data>
   <data name="timeAndDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>580, 6</value>
-  </data>
-  <data name="timeAndDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>870, 9</value>
   </data>
   <data name="timeAndDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 13</value>
+    <value>39, 20</value>
   </data>
   <data name="timeAndDate.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -3788,16 +4031,13 @@
     <value>MiddleLeft</value>
   </data>
   <data name="iconButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 2</value>
-  </data>
-  <data name="iconButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, 3</value>
   </data>
   <data name="iconButton1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 0, 0</value>
+    <value>10, 0, 0, 0</value>
   </data>
   <data name="iconButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 24</value>
+    <value>170, 37</value>
   </data>
   <data name="iconButton1.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -3830,7 +4070,7 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="rjDropdownMenuSales.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 70</value>
+    <value>215, 112</value>
   </data>
   <data name="&gt;&gt;rjDropdownMenuSales.Name" xml:space="preserve">
     <value>rjDropdownMenuSales</value>
@@ -3842,7 +4082,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="countersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>214, 36</value>
   </data>
   <data name="countersToolStripMenuItem.Text" xml:space="preserve">
     <value>Counters</value>
@@ -3851,7 +4091,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="collectionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>214, 36</value>
   </data>
   <data name="collectionsToolStripMenuItem.Text" xml:space="preserve">
     <value>Collections</value>
@@ -3860,7 +4100,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="bonetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>214, 36</value>
   </data>
   <data name="bonetToolStripMenuItem.Text" xml:space="preserve">
     <value>Bonet</value>
@@ -3872,7 +4112,7 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="rjDropdownMenuLearnMore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 114</value>
+    <value>199, 184</value>
   </data>
   <data name="&gt;&gt;rjDropdownMenuLearnMore.Name" xml:space="preserve">
     <value>rjDropdownMenuLearnMore</value>
@@ -3887,7 +4127,7 @@
     <value>True</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>198, 36</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Machine</value>
@@ -3896,7 +4136,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>198, 36</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>Tank</value>
@@ -3905,7 +4145,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>198, 36</value>
   </data>
   <data name="toolStripMenuItem4.Text" xml:space="preserve">
     <value>Changes</value>
@@ -3917,7 +4157,7 @@
     <value>True</value>
   </data>
   <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 24</value>
+    <value>261, 38</value>
   </data>
   <data name="toolStripMenuItem5.Text" xml:space="preserve">
     <value>Exchange Rate</value>
@@ -3926,7 +4166,7 @@
     <value>Segoe UI Semibold, 11pt, style=Bold</value>
   </data>
   <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 24</value>
+    <value>261, 38</value>
   </data>
   <data name="toolStripMenuItem6.Text" xml:space="preserve">
     <value>Expense Type</value>
@@ -3935,7 +4175,7 @@
     <value>Segoe UI Semibold, 11pt, style=Bold</value>
   </data>
   <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 24</value>
+    <value>261, 38</value>
   </data>
   <data name="toolStripMenuItem7.Text" xml:space="preserve">
     <value>Currency</value>
@@ -3944,7 +4184,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>198, 36</value>
   </data>
   <data name="toolStripMenuItem8.Text" xml:space="preserve">
     <value>Fuel Type</value>
@@ -3953,7 +4193,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>198, 36</value>
   </data>
   <data name="toolStripMenuItem3.Text" xml:space="preserve">
     <value>Origins</value>
@@ -3965,7 +4205,7 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="rjDropdownMenuTools.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 70</value>
+    <value>305, 112</value>
   </data>
   <data name="&gt;&gt;rjDropdownMenuTools.Name" xml:space="preserve">
     <value>rjDropdownMenuTools</value>
@@ -3977,7 +4217,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 22</value>
+    <value>304, 36</value>
   </data>
   <data name="toolStripMenuItem9.Text" xml:space="preserve">
     <value>BackUp</value>
@@ -3986,7 +4226,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 22</value>
+    <value>304, 36</value>
   </data>
   <data name="toolStripMenuItem10.Text" xml:space="preserve">
     <value>Connect To Server</value>
@@ -4001,7 +4241,7 @@
     <value>True</value>
   </data>
   <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 22</value>
+    <value>304, 36</value>
   </data>
   <data name="toolStripMenuItem11.Text" xml:space="preserve">
     <value>Maintenance</value>
@@ -4013,7 +4253,7 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="rjDropdownMenuServices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 70</value>
+    <value>301, 112</value>
   </data>
   <data name="&gt;&gt;rjDropdownMenuServices.Name" xml:space="preserve">
     <value>rjDropdownMenuServices</value>
@@ -4025,7 +4265,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>300, 36</value>
   </data>
   <data name="toolStripMenuItem12.Text" xml:space="preserve">
     <value>Fumigation</value>
@@ -4034,7 +4274,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>300, 36</value>
   </data>
   <data name="toolStripMenuItem13.Text" xml:space="preserve">
     <value>First Duration</value>
@@ -4043,7 +4283,7 @@
     <value>Verdana, 12pt</value>
   </data>
   <data name="toolStripMenuItem14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 22</value>
+    <value>300, 36</value>
   </data>
   <data name="toolStripMenuItem14.Text" xml:space="preserve">
     <value>Machine Solutions</value>
@@ -4058,13 +4298,10 @@
     <value>Verdana, 14pt, style=Bold</value>
   </data>
   <data name="iconButton14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>637, 2</value>
-  </data>
-  <data name="iconButton14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>841, 5</value>
   </data>
   <data name="iconButton14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 34</value>
+    <value>176, 52</value>
   </data>
   <data name="iconButton14.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -4084,108 +4321,6 @@
   <data name="&gt;&gt;iconButton14.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;btnNotification.Name" xml:space="preserve">
-    <value>btnNotification</value>
-  </data>
-  <data name="&gt;&gt;btnNotification.Type" xml:space="preserve">
-    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
-  </data>
-  <data name="&gt;&gt;btnNotification.Parent" xml:space="preserve">
-    <value>panelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;btnNotification.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;iconButton15.Name" xml:space="preserve">
-    <value>iconButton15</value>
-  </data>
-  <data name="&gt;&gt;iconButton15.Type" xml:space="preserve">
-    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
-  </data>
-  <data name="&gt;&gt;iconButton15.Parent" xml:space="preserve">
-    <value>panelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;iconButton15.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnStation.Name" xml:space="preserve">
-    <value>btnStation</value>
-  </data>
-  <data name="&gt;&gt;btnStation.Type" xml:space="preserve">
-    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
-  </data>
-  <data name="&gt;&gt;btnStation.Parent" xml:space="preserve">
-    <value>panelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;btnStation.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btnLang.Name" xml:space="preserve">
-    <value>btnLang</value>
-  </data>
-  <data name="&gt;&gt;btnLang.Type" xml:space="preserve">
-    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
-  </data>
-  <data name="&gt;&gt;btnLang.Parent" xml:space="preserve">
-    <value>panelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;btnLang.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnWasher.Name" xml:space="preserve">
-    <value>btnWasher</value>
-  </data>
-  <data name="&gt;&gt;btnWasher.Type" xml:space="preserve">
-    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
-  </data>
-  <data name="&gt;&gt;btnWasher.Parent" xml:space="preserve">
-    <value>panelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;btnWasher.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnGas.Name" xml:space="preserve">
-    <value>btnGas</value>
-  </data>
-  <data name="&gt;&gt;btnGas.Type" xml:space="preserve">
-    <value>FontAwesome.Sharp.IconButton, FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f</value>
-  </data>
-  <data name="&gt;&gt;btnGas.Parent" xml:space="preserve">
-    <value>panelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;btnGas.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="panelTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panelTitleBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>169, 0</value>
-  </data>
-  <data name="panelTitleBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="panelTitleBar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="panelTitleBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>744, 39</value>
-  </data>
-  <data name="panelTitleBar.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panelTitleBar.Name" xml:space="preserve">
-    <value>panelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;panelTitleBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelTitleBar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelTitleBar.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="btnNotification.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -4196,13 +4331,10 @@
     <value>MiddleLeft</value>
   </data>
   <data name="btnNotification.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 2</value>
-  </data>
-  <data name="btnNotification.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>24, 3</value>
   </data>
   <data name="btnNotification.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 34</value>
+    <value>60, 52</value>
   </data>
   <data name="btnNotification.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -4235,13 +4367,10 @@
     <value>Flat</value>
   </data>
   <data name="iconButton15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>682, 0</value>
-  </data>
-  <data name="iconButton15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>1023, 0</value>
   </data>
   <data name="iconButton15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 39</value>
+    <value>93, 60</value>
   </data>
   <data name="iconButton15.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -4265,13 +4394,10 @@
     <value>Verdana, 14pt, style=Bold</value>
   </data>
   <data name="btnStation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 2</value>
-  </data>
-  <data name="btnStation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>286, 5</value>
   </data>
   <data name="btnStation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 34</value>
+    <value>176, 52</value>
   </data>
   <data name="btnStation.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -4298,13 +4424,10 @@
     <value>Verdana, 14pt, style=Bold</value>
   </data>
   <data name="btnLang.Location" type="System.Drawing.Point, System.Drawing">
-    <value>518, 2</value>
-  </data>
-  <data name="btnLang.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>643, 5</value>
   </data>
   <data name="btnLang.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 34</value>
+    <value>192, 52</value>
   </data>
   <data name="btnLang.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -4331,13 +4454,10 @@
     <value>Verdana, 14pt, style=Bold</value>
   </data>
   <data name="btnWasher.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 0</value>
-  </data>
-  <data name="btnWasher.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>104, 2</value>
   </data>
   <data name="btnWasher.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 34</value>
+    <value>176, 52</value>
   </data>
   <data name="btnWasher.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -4364,13 +4484,10 @@
     <value>Verdana, 14pt, style=Bold</value>
   </data>
   <data name="btnGas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>397, 2</value>
-  </data>
-  <data name="btnGas.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>466, 5</value>
   </data>
   <data name="btnGas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 34</value>
+    <value>176, 52</value>
   </data>
   <data name="btnGas.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -4390,20 +4507,44 @@
   <data name="&gt;&gt;btnGas.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="panelTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTitleBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 0</value>
+  </data>
+  <data name="panelTitleBar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="panelTitleBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1116, 60</value>
+  </data>
+  <data name="panelTitleBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar.Name" xml:space="preserve">
+    <value>panelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>913, 487</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>1370, 749</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>915, 480</value>
+    <value>1362, 708</value>
   </data>
   <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
