@@ -92,7 +92,6 @@
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnNotification = new FontAwesome.Sharp.IconButton();
             this.btnLang = new FontAwesome.Sharp.IconButton();
-            this.iconButton15 = new FontAwesome.Sharp.IconButton();
             this.btnStation = new FontAwesome.Sharp.IconButton();
             this.btnWasher = new FontAwesome.Sharp.IconButton();
             this.btnGas = new FontAwesome.Sharp.IconButton();
@@ -636,7 +635,6 @@
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
             this.panelTitleBar.Controls.Add(this.btnNotification);
             this.panelTitleBar.Controls.Add(this.btnLang);
-            this.panelTitleBar.Controls.Add(this.iconButton15);
             this.panelTitleBar.Controls.Add(this.btnStation);
             this.panelTitleBar.Controls.Add(this.btnWasher);
             this.panelTitleBar.Controls.Add(this.btnGas);
@@ -667,17 +665,6 @@
             this.btnLang.Name = "btnLang";
             this.btnLang.UseVisualStyleBackColor = true;
             this.btnLang.Click += new System.EventHandler(this.iconButton17_Click);
-            // 
-            // iconButton15
-            // 
-            resources.ApplyResources(this.iconButton15, "iconButton15");
-            this.iconButton15.FlatAppearance.BorderSize = 0;
-            this.iconButton15.IconChar = FontAwesome.Sharp.IconChar.GasPump;
-            this.iconButton15.IconColor = System.Drawing.Color.White;
-            this.iconButton15.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton15.IconSize = 60;
-            this.iconButton15.Name = "iconButton15";
-            this.iconButton15.UseVisualStyleBackColor = true;
             // 
             // btnStation
             // 
@@ -806,7 +793,6 @@
         private FontAwesome.Sharp.IconButton btnLang;
         private FontAwesome.Sharp.IconButton btnWasher;
         private FontAwesome.Sharp.IconButton btnGas;
-        private FontAwesome.Sharp.IconButton iconButton15;
         private FontAwesome.Sharp.IconButton btnNotification;
     }
 }
