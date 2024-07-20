@@ -635,9 +635,9 @@
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
             this.panelTitleBar.Controls.Add(this.btnNotification);
+            this.panelTitleBar.Controls.Add(this.btnLang);
             this.panelTitleBar.Controls.Add(this.iconButton15);
             this.panelTitleBar.Controls.Add(this.btnStation);
-            this.panelTitleBar.Controls.Add(this.btnLang);
             this.panelTitleBar.Controls.Add(this.btnWasher);
             this.panelTitleBar.Controls.Add(this.btnGas);
             this.panelTitleBar.Controls.Add(this.iconButton14);
