@@ -91,9 +91,9 @@
             this.iconButton14 = new FontAwesome.Sharp.IconButton();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnNotification = new FontAwesome.Sharp.IconButton();
+            this.btnLang = new FontAwesome.Sharp.IconButton();
             this.iconButton15 = new FontAwesome.Sharp.IconButton();
             this.btnStation = new FontAwesome.Sharp.IconButton();
-            this.btnLang = new FontAwesome.Sharp.IconButton();
             this.btnWasher = new FontAwesome.Sharp.IconButton();
             this.btnGas = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
@@ -656,6 +656,18 @@
             this.btnNotification.Name = "btnNotification";
             this.btnNotification.UseVisualStyleBackColor = true;
             // 
+            // btnLang
+            // 
+            this.btnLang.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnLang, "btnLang");
+            this.btnLang.ForeColor = System.Drawing.Color.White;
+            this.btnLang.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnLang.IconColor = System.Drawing.Color.Black;
+            this.btnLang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnLang.Name = "btnLang";
+            this.btnLang.UseVisualStyleBackColor = true;
+            this.btnLang.Click += new System.EventHandler(this.iconButton17_Click);
+            // 
             // iconButton15
             // 
             resources.ApplyResources(this.iconButton15, "iconButton15");
@@ -678,18 +690,6 @@
             this.btnStation.Name = "btnStation";
             this.btnStation.UseVisualStyleBackColor = true;
             this.btnStation.Click += new System.EventHandler(this.btnStation_Click);
-            // 
-            // btnLang
-            // 
-            this.btnLang.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnLang, "btnLang");
-            this.btnLang.ForeColor = System.Drawing.Color.White;
-            this.btnLang.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnLang.IconColor = System.Drawing.Color.Black;
-            this.btnLang.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnLang.Name = "btnLang";
-            this.btnLang.UseVisualStyleBackColor = true;
-            this.btnLang.Click += new System.EventHandler(this.iconButton17_Click);
             // 
             // btnWasher
             // 
