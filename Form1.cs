@@ -289,7 +289,7 @@ namespace GasStationTemplate2
 
         private void iconButton4_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void countersToolStripMenuItem_Click(object sender, EventArgs e)
@@ -299,6 +299,38 @@ namespace GasStationTemplate2
         private void collectionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("hello");
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            // Close and dispose any existing form in panelDesktop
+            foreach (Control control in panelDesktop.Controls)
+            {
+                if (control is Form form)
+                {
+                    form.Close();
+                    form.Dispose();
+                }
+            }
+
+            // Create a new instance of the Sales form
+            Rate rateForm = new Rate();
+
+            // Set the form's top-level status to false, so it can be added to a panel
+            rateForm.TopLevel = false;
+
+            // Remove any existing controls in the panelDesktop to avoid stacking forms
+            panelDesktop.Controls.Clear();
+
+            // Add the Sales form to the panelDesktop
+            panelDesktop.Controls.Add(rateForm);
+
+            // Dock the form to fill the panel
+            rateForm.Dock = DockStyle.Fill;
+
+            // Ensure the form is displayed correctly within the panel
+            rateForm.BringToFront();
+            rateForm.Show();
         }
     }
 }

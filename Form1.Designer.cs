@@ -63,9 +63,6 @@
             this.btnMenu = new FontAwesome.Sharp.IconButton();
             this.rjCircularPictureBox1 = new RJCodeAdvance.RJControls.RJCircularPictureBox();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.timeAndDate = new System.Windows.Forms.Label();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.rjDropdownMenuSales = new RJCodeAdvance.RJControls.RJDropdownMenu(this.components);
             this.countersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.collectionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -94,16 +91,18 @@
             this.btnGas = new FontAwesome.Sharp.IconButton();
             this.btnLang = new FontAwesome.Sharp.IconButton();
             this.iconButton14 = new FontAwesome.Sharp.IconButton();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.timeAndDate = new System.Windows.Forms.Label();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
-            this.panelDesktop.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.rjDropdownMenuSales.SuspendLayout();
             this.rjDropdownMenuLearnMore.SuspendLayout();
             this.rjDropdownMenuTools.SuspendLayout();
             this.rjDropdownMenuServices.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -427,40 +426,10 @@
             // panelDesktop
             // 
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.panelDesktop.Controls.Add(this.panel2);
             resources.ApplyResources(this.panelDesktop, "panelDesktop");
             this.panelDesktop.ForeColor = System.Drawing.Color.White;
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
-            // 
-            // panel2
-            // 
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.panel2.Controls.Add(this.timeAndDate);
-            this.panel2.Controls.Add(this.iconButton1);
-            this.panel2.Name = "panel2";
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // timeAndDate
-            // 
-            resources.ApplyResources(this.timeAndDate, "timeAndDate");
-            this.timeAndDate.ForeColor = System.Drawing.Color.White;
-            this.timeAndDate.Name = "timeAndDate";
-            // 
-            // iconButton1
-            // 
-            resources.ApplyResources(this.iconButton1, "iconButton1");
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.ForeColor = System.Drawing.Color.White;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.WifiStrong;
-            this.iconButton1.IconColor = System.Drawing.Color.White;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 30;
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Tag = "متصل";
-            this.iconButton1.UseVisualStyleBackColor = true;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click_1);
             // 
             // rjDropdownMenuSales
             // 
@@ -536,6 +505,7 @@
             // 
             resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
             // toolStripMenuItem6
             // 
@@ -693,27 +663,56 @@
             this.iconButton14.UseVisualStyleBackColor = true;
             this.iconButton14.Click += new System.EventHandler(this.iconButton14_Click_1);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.panel2.Controls.Add(this.timeAndDate);
+            this.panel2.Controls.Add(this.iconButton1);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
+            // timeAndDate
+            // 
+            resources.ApplyResources(this.timeAndDate, "timeAndDate");
+            this.timeAndDate.ForeColor = System.Drawing.Color.White;
+            this.timeAndDate.Name = "timeAndDate";
+            // 
+            // iconButton1
+            // 
+            resources.ApplyResources(this.iconButton1, "iconButton1");
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.WifiStrong;
+            this.iconButton1.IconColor = System.Drawing.Color.White;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 30;
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Tag = "متصل";
+            this.iconButton1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
+            this.IsMdiContainer = true;
             this.Name = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).EndInit();
-            this.panelDesktop.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.rjDropdownMenuSales.ResumeLayout(false);
             this.rjDropdownMenuLearnMore.ResumeLayout(false);
             this.rjDropdownMenuTools.ResumeLayout(false);
             this.rjDropdownMenuServices.ResumeLayout(false);
             this.panelTitleBar.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -770,9 +769,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem13;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem14;
-        private System.Windows.Forms.Panel panel2;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private System.Windows.Forms.Label timeAndDate;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -784,6 +780,9 @@
         private FontAwesome.Sharp.IconButton btnStation;
         private FontAwesome.Sharp.IconButton btnGas;
         private FontAwesome.Sharp.IconButton iconButton14;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label timeAndDate;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }
 
