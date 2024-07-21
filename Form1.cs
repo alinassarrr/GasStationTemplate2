@@ -64,7 +64,7 @@ namespace GasStationTemplate2
         {
             if (this.panelMenu.Width > 200)
             {
-                panelMenu.Width = 100;
+                panelMenu.Width = 120;
                 rjCircularPictureBox1.Visible = false;
                 btnMenu.Dock = DockStyle.Top;
                 foreach(Button menuButton in panelMenu.Controls.OfType<Button>())

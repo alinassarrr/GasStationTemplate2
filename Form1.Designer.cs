@@ -297,7 +297,7 @@
             this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton7.IconSize = 35;
             this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Tag = "Drains";
+            this.iconButton7.Tag = "مصارفات";
             this.iconButton7.UseVisualStyleBackColor = true;
             this.iconButton7.Click += new System.EventHandler(this.iconButton7_Click);
             // 
@@ -316,7 +316,7 @@
             this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton6.IconSize = 30;
             this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Tag = "Payment Voucher";
+            this.iconButton6.Tag = "بونات";
             this.iconButton6.UseVisualStyleBackColor = true;
             // 
             // kryptonBorderEdge4
@@ -334,7 +334,7 @@
             this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton5.IconSize = 35;
             this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Tag = "Catch Receipt";
+            this.iconButton5.Tag = "سندات";
             this.iconButton5.UseVisualStyleBackColor = true;
             // 
             // kryptonBorderEdge3
@@ -352,7 +352,7 @@
             this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton4.IconSize = 35;
             this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Tag = "Buy";
+            this.iconButton4.Tag = "المبيع";
             this.iconButton4.UseVisualStyleBackColor = true;
             // 
             // kryptonBorderEdge2
@@ -370,7 +370,7 @@
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton3.IconSize = 35;
             this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Tag = "Sales";
+            this.iconButton3.Tag = "المبيع";
             this.iconButton3.UseVisualStyleBackColor = true;
             this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
             // 
@@ -389,7 +389,7 @@
             this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton2.IconSize = 35;
             this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Tag = "Home";
+            this.iconButton2.Tag = "الصفحة الرئيسية";
             this.iconButton2.UseVisualStyleBackColor = true;
             this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
             // 
