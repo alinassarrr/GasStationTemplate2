@@ -22,7 +22,6 @@ namespace GasStationTemplate2
             InitializeComponent();
             InitializeTimer();
             btnGas.Click += iconButton14_Click_1;
-            btnWasher.Click += iconButton14_Click_1;
             btnStation.Click += iconButton14_Click_1;
             iconButton14.Click += iconButton14_Click_1;
             btnLang.Click += iconButton14_Click_1;
@@ -133,11 +132,7 @@ namespace GasStationTemplate2
 
         }
 
-        private void collectionsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
 
@@ -283,19 +278,27 @@ namespace GasStationTemplate2
 
         }
 
-        private void btnWasher_Click(object sender, EventArgs e)
+        private void BtnStation_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnStation_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void iconButton2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void countersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
+        }
+        private void collectionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hello");
         }
     }
 }

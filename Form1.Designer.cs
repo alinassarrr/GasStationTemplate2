@@ -88,13 +88,12 @@
             this.toolStripMenuItem13 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.iconButton14 = new FontAwesome.Sharp.IconButton();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnNotification = new FontAwesome.Sharp.IconButton();
-            this.btnLang = new FontAwesome.Sharp.IconButton();
             this.btnStation = new FontAwesome.Sharp.IconButton();
-            this.btnWasher = new FontAwesome.Sharp.IconButton();
             this.btnGas = new FontAwesome.Sharp.IconButton();
+            this.btnLang = new FontAwesome.Sharp.IconButton();
+            this.iconButton14 = new FontAwesome.Sharp.IconButton();
             this.panelMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
@@ -352,8 +351,9 @@
             this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton4.IconSize = 35;
             this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Tag = "المبيع";
+            this.iconButton4.Tag = "الشراء";
             this.iconButton4.UseVisualStyleBackColor = true;
+            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
             // 
             // kryptonBorderEdge2
             // 
@@ -482,6 +482,7 @@
             // 
             resources.ApplyResources(this.countersToolStripMenuItem, "countersToolStripMenuItem");
             this.countersToolStripMenuItem.Name = "countersToolStripMenuItem";
+            this.countersToolStripMenuItem.Click += new System.EventHandler(this.countersToolStripMenuItem_Click);
             // 
             // collectionsToolStripMenuItem
             // 
@@ -554,6 +555,7 @@
             // toolStripMenuItem3
             // 
             resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            this.toolStripMenuItem3.Margin = new System.Windows.Forms.Padding(300, 0, 0, 0);
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             // 
             // rjDropdownMenuTools
@@ -611,6 +613,7 @@
             // toolStripMenuItem13
             // 
             resources.ApplyResources(this.toolStripMenuItem13, "toolStripMenuItem13");
+            this.toolStripMenuItem13.Margin = new System.Windows.Forms.Padding(0, 0, 300, 0);
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
             // 
             // toolStripMenuItem14
@@ -618,27 +621,14 @@
             resources.ApplyResources(this.toolStripMenuItem14, "toolStripMenuItem14");
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
             // 
-            // iconButton14
-            // 
-            this.iconButton14.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.iconButton14, "iconButton14");
-            this.iconButton14.ForeColor = System.Drawing.Color.White;
-            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton14.IconColor = System.Drawing.Color.Black;
-            this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton14.Name = "iconButton14";
-            this.iconButton14.UseVisualStyleBackColor = true;
-            this.iconButton14.Click += new System.EventHandler(this.iconButton14_Click_1);
-            // 
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
+            this.panelTitleBar.Controls.Add(this.iconButton14);
             this.panelTitleBar.Controls.Add(this.btnNotification);
             this.panelTitleBar.Controls.Add(this.btnLang);
             this.panelTitleBar.Controls.Add(this.btnStation);
-            this.panelTitleBar.Controls.Add(this.btnWasher);
             this.panelTitleBar.Controls.Add(this.btnGas);
-            this.panelTitleBar.Controls.Add(this.iconButton14);
             resources.ApplyResources(this.panelTitleBar, "panelTitleBar");
             this.panelTitleBar.Name = "panelTitleBar";
             this.panelTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitleBar_Paint);
@@ -654,10 +644,35 @@
             this.btnNotification.Name = "btnNotification";
             this.btnNotification.UseVisualStyleBackColor = true;
             // 
+            // btnStation
+            // 
+            resources.ApplyResources(this.btnStation, "btnStation");
+            this.btnStation.FlatAppearance.BorderSize = 0;
+            this.btnStation.ForeColor = System.Drawing.Color.White;
+            this.btnStation.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnStation.IconColor = System.Drawing.Color.Black;
+            this.btnStation.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnStation.Name = "btnStation";
+            this.btnStation.UseVisualStyleBackColor = true;
+            this.btnStation.Click += new System.EventHandler(this.BtnStation_Click);
+            // 
+            // btnGas
+            // 
+            resources.ApplyResources(this.btnGas, "btnGas");
+            this.btnGas.FlatAppearance.BorderSize = 0;
+            this.btnGas.ForeColor = System.Drawing.Color.White;
+            this.btnGas.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnGas.IconColor = System.Drawing.Color.Black;
+            this.btnGas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnGas.Name = "btnGas";
+            this.btnGas.Tag = "غاز";
+            this.btnGas.UseVisualStyleBackColor = true;
+            this.btnGas.Click += new System.EventHandler(this.btnGas_Click);
+            // 
             // btnLang
             // 
-            this.btnLang.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.btnLang, "btnLang");
+            this.btnLang.FlatAppearance.BorderSize = 0;
             this.btnLang.ForeColor = System.Drawing.Color.White;
             this.btnLang.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnLang.IconColor = System.Drawing.Color.Black;
@@ -666,41 +681,17 @@
             this.btnLang.UseVisualStyleBackColor = true;
             this.btnLang.Click += new System.EventHandler(this.iconButton17_Click);
             // 
-            // btnStation
+            // iconButton14
             // 
-            this.btnStation.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnStation, "btnStation");
-            this.btnStation.ForeColor = System.Drawing.Color.White;
-            this.btnStation.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnStation.IconColor = System.Drawing.Color.Black;
-            this.btnStation.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnStation.Name = "btnStation";
-            this.btnStation.UseVisualStyleBackColor = true;
-            this.btnStation.Click += new System.EventHandler(this.btnStation_Click);
-            // 
-            // btnWasher
-            // 
-            this.btnWasher.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnWasher, "btnWasher");
-            this.btnWasher.ForeColor = System.Drawing.Color.White;
-            this.btnWasher.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnWasher.IconColor = System.Drawing.Color.Black;
-            this.btnWasher.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnWasher.Name = "btnWasher";
-            this.btnWasher.UseVisualStyleBackColor = true;
-            this.btnWasher.Click += new System.EventHandler(this.btnWasher_Click);
-            // 
-            // btnGas
-            // 
-            this.btnGas.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnGas, "btnGas");
-            this.btnGas.ForeColor = System.Drawing.Color.White;
-            this.btnGas.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnGas.IconColor = System.Drawing.Color.Black;
-            this.btnGas.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnGas.Name = "btnGas";
-            this.btnGas.UseVisualStyleBackColor = true;
-            this.btnGas.Click += new System.EventHandler(this.btnGas_Click);
+            resources.ApplyResources(this.iconButton14, "iconButton14");
+            this.iconButton14.FlatAppearance.BorderSize = 0;
+            this.iconButton14.ForeColor = System.Drawing.Color.White;
+            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton14.IconColor = System.Drawing.Color.Black;
+            this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton14.Name = "iconButton14";
+            this.iconButton14.UseVisualStyleBackColor = true;
+            this.iconButton14.Click += new System.EventHandler(this.iconButton14_Click_1);
             // 
             // Form1
             // 
@@ -783,17 +774,16 @@
         private FontAwesome.Sharp.IconButton iconButton1;
         private System.Windows.Forms.Label timeAndDate;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private FontAwesome.Sharp.IconButton iconButton14;
         private System.Windows.Forms.Panel panelTitleBar;
-        private FontAwesome.Sharp.IconButton btnStation;
-        private FontAwesome.Sharp.IconButton btnLang;
-        private FontAwesome.Sharp.IconButton btnWasher;
-        private FontAwesome.Sharp.IconButton btnGas;
         private FontAwesome.Sharp.IconButton btnNotification;
+        private System.Windows.Forms.Label label1;
+        private FontAwesome.Sharp.IconButton btnLang;
+        private FontAwesome.Sharp.IconButton btnStation;
+        private FontAwesome.Sharp.IconButton btnGas;
+        private FontAwesome.Sharp.IconButton iconButton14;
     }
 }
 
