@@ -86,11 +86,11 @@
             this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelTitleBar = new System.Windows.Forms.Panel();
+            this.iconButton14 = new FontAwesome.Sharp.IconButton();
             this.btnNotification = new FontAwesome.Sharp.IconButton();
+            this.btnLang = new FontAwesome.Sharp.IconButton();
             this.btnStation = new FontAwesome.Sharp.IconButton();
             this.btnGas = new FontAwesome.Sharp.IconButton();
-            this.btnLang = new FontAwesome.Sharp.IconButton();
-            this.iconButton14 = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.timeAndDate = new System.Windows.Forms.Label();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
@@ -603,6 +603,18 @@
             this.panelTitleBar.Name = "panelTitleBar";
             this.panelTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitleBar_Paint);
             // 
+            // iconButton14
+            // 
+            resources.ApplyResources(this.iconButton14, "iconButton14");
+            this.iconButton14.FlatAppearance.BorderSize = 0;
+            this.iconButton14.ForeColor = System.Drawing.Color.White;
+            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton14.IconColor = System.Drawing.Color.Black;
+            this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton14.Name = "iconButton14";
+            this.iconButton14.UseVisualStyleBackColor = true;
+            this.iconButton14.Click += new System.EventHandler(this.iconButton14_Click_1);
+            // 
             // btnNotification
             // 
             this.btnNotification.FlatAppearance.BorderSize = 0;
@@ -613,6 +625,18 @@
             this.btnNotification.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnNotification.Name = "btnNotification";
             this.btnNotification.UseVisualStyleBackColor = true;
+            // 
+            // btnLang
+            // 
+            resources.ApplyResources(this.btnLang, "btnLang");
+            this.btnLang.FlatAppearance.BorderSize = 0;
+            this.btnLang.ForeColor = System.Drawing.Color.White;
+            this.btnLang.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnLang.IconColor = System.Drawing.Color.Black;
+            this.btnLang.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnLang.Name = "btnLang";
+            this.btnLang.UseVisualStyleBackColor = true;
+            this.btnLang.Click += new System.EventHandler(this.iconButton17_Click);
             // 
             // btnStation
             // 
@@ -638,30 +662,6 @@
             this.btnGas.Tag = "غاز";
             this.btnGas.UseVisualStyleBackColor = true;
             this.btnGas.Click += new System.EventHandler(this.btnGas_Click);
-            // 
-            // btnLang
-            // 
-            resources.ApplyResources(this.btnLang, "btnLang");
-            this.btnLang.FlatAppearance.BorderSize = 0;
-            this.btnLang.ForeColor = System.Drawing.Color.White;
-            this.btnLang.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnLang.IconColor = System.Drawing.Color.Black;
-            this.btnLang.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnLang.Name = "btnLang";
-            this.btnLang.UseVisualStyleBackColor = true;
-            this.btnLang.Click += new System.EventHandler(this.iconButton17_Click);
-            // 
-            // iconButton14
-            // 
-            resources.ApplyResources(this.iconButton14, "iconButton14");
-            this.iconButton14.FlatAppearance.BorderSize = 0;
-            this.iconButton14.ForeColor = System.Drawing.Color.White;
-            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton14.IconColor = System.Drawing.Color.Black;
-            this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton14.Name = "iconButton14";
-            this.iconButton14.UseVisualStyleBackColor = true;
-            this.iconButton14.Click += new System.EventHandler(this.iconButton14_Click_1);
             // 
             // panel2
             // 
